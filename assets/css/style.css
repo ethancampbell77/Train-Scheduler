@@ -1,0 +1,52 @@
+/* My CSS Style Sheet - in addition to Materialize CDN */
+
+/* Google Fonts */
+/* font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    /* background-image: url("../images/space_train.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%; */
+    background-color: rgb(253, 249, 249);
+}
+
+div.card-content {
+    text-align: center;
+    font-size: 20px;
+}
+
+#headText {
+    font-size: 42px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+div#tableHead{
+    font-size: 20px;
+    font-weight: bold;
+    /* box-shadow: 0px 0px 0px; */
+}
+
+tr.scheduleHead {
+    font-weight: bold;
+}
+
+/* Media Query to fix overlapping header text at smaller screen sizes */
+
+@media screen and (max-width: 680px) {
+    #headText {
+        font-size: 36px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    div#tableHead {
+        text-align: center;
+    }
+  }
+
