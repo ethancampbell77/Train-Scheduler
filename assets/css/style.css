@@ -10,7 +10,7 @@ font-family: 'Fjalla One', sans-serif; */
 
 body {
     
-    background-image: url(assets/Images/space_train.jpg);
+    background-image: url("space_train.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
