@@ -4,19 +4,7 @@ An application for viewing and adding train schedules.
 
 This Application Uses:
 
-HTML
-
-CSS
-
-JavaScript
-
-JQuery
-
-Moment.js
-
-Firebase Realtime Database
-
-Materialize Framework
+HTML, CSS, JavaScript, JQuery, Moment.js, Firebase Realtime Database, Materialize Framework
 
 
 
